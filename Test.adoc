@@ -1,0 +1,19 @@
+Software-defined networking (SDN), network functions virtualization (NFV), and network virtualization (NV) is providing new ways to design, build and operate networks.
+Software-defined networks is a virtualization approach to network management, treating the management of network devices separately from the data plane controlling network traffic.
+
+# Comparison between the traditional and upgraded infrastructure with SDN and NFV
+The differences between the traditional and upgraded infrastructure with SDN and NFV are listed below:
+
+* Traditional networks use Single vendor approach while Virtualized network uses multi-vendor approach. Single Vendor approach is cost effective initially as it avoids complicated troubleshooting and cross layer fault detection. Integration savings can also be realized lowering the Total Cost of Ownership. 
+* Traditional network infrastructure is relatively static, virtualized networks can efficiently adapt to the constantly changing needs of current IT environments. SDN lets network managers rapidly deploy, provision, configure and manage network resources as necessary.
+* Traditional network is easy to implement for a smaller scale network whereas virtualized networks leads to complex networks as devices are designed under the assumption that hardware and software are integrated in a physical element. 
+
+# Business Benefits of SDN and NFV
+Over the years, service provider networks have become complex, rigid, and inflexible in terms of service creation and delivery. This leads to limited innovation and it also results in increasing capital and operational expenses. The tight integration software and hardware has made it increasingly difficult to manipulate services “on-demand.” 
+The business purpose for this transformation is to create a more dynamic and service-agile infrastructure where existing services can be changed dynamically and new services can be delivered rapidly in response to the changing customer needs. 
+Furthermore, the total cost of ownership is reduced through improved automation and orchestration capabilities.
+
+# Challenges related to SDN and NFV
+The rush towards the commercialization of NFV has led to inadequate guidelines and processes for visualization of networks. Therefore, companies are facing challenges such as interoperability and lack of standardization.
+Also, other challenge is Packet forwarding cost is higher with white box servers and NFV than with traditional hardware.
+Currently SDN-NFV is not cost friendly, additional hardware assistance will be required in NFV deployments to make it cost-efficient.
