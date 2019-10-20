@@ -1,19 +1,44 @@
-Software-defined networking (SDN), network functions virtualization (NFV), and network virtualization (NV) is providing new ways to design, build and operate networks.
-Software-defined networks is a virtualization approach to network management, treating the management of network devices separately from the data plane controlling network traffic.
+One of the salient characteristics of the digital revolution is the acceleration of change. Technologies that enabled the digital revolution over past decades experience ever-faster innovation cycles-for example, recall how rapidly mobile phone technology has advanced. And while it’s a challenge to stay current with such accelerated changes, the advancements consistently deliver both operational and economic benefits. 
+The dynamic and interactive characteristics of the new technologies demand more elasticity than today’s legacy backbone networks can deliver, as well as more flexible, agile and cost-effective low-latency and high-bandwidth connections to handle the digital deluge. This is why the industry has turned to software.
 
-# Comparison between the traditional and upgraded infrastructure with SDN and NFV
-The differences between the traditional and upgraded infrastructure with SDN and NFV are listed below:
+image:Network.adoc[]
 
-* Traditional networks use Single vendor approach while Virtualized network uses multi-vendor approach. Single Vendor approach is cost effective initially as it avoids complicated troubleshooting and cross layer fault detection. Integration savings can also be realized lowering the Total Cost of Ownership. 
-* Traditional network infrastructure is relatively static, virtualized networks can efficiently adapt to the constantly changing needs of current IT environments. SDN lets network managers rapidly deploy, provision, configure and manage network resources as necessary.
-* Traditional network is easy to implement for a smaller scale network whereas virtualized networks leads to complex networks as devices are designed under the assumption that hardware and software are integrated in a physical element. 
+# About SDN-NFV
 
-# Business Benefits of SDN and NFV
-Over the years, service provider networks have become complex, rigid, and inflexible in terms of service creation and delivery. This leads to limited innovation and it also results in increasing capital and operational expenses. The tight integration software and hardware has made it increasingly difficult to manipulate services “on-demand.” 
-The business purpose for this transformation is to create a more dynamic and service-agile infrastructure where existing services can be changed dynamically and new services can be delivered rapidly in response to the changing customer needs. 
-Furthermore, the total cost of ownership is reduced through improved automation and orchestration capabilities.
+Two technology trends that are transforming network management, particularly those that are widely-distributed and employ public, private or hybrid cloud services, are software-defined networks (SDN) and network functions virtualization (NFV). Together, SDN and NFV technologies are making it easier to provision network resources, reducing CapEx and OpEx and enabling greater network flexibility.
+This documents explains details about SDN and traditional network. The difference between the two networks also it explains business benefits of SDN and NFV, Further, the future challenges related to SDN and NFV are also described.
 
-# Challenges related to SDN and NFV
-The rush towards the commercialization of NFV has led to inadequate guidelines and processes for visualization of networks. Therefore, companies are facing challenges such as interoperability and lack of standardization.
-Also, other challenge is Packet forwarding cost is higher with white box servers and NFV than with traditional hardware.
-Currently SDN-NFV is not cost friendly, additional hardware assistance will be required in NFV deployments to make it cost-efficient.
+# What is Traditional Network?
+Your ABC Company currently uses the traditional network. The traditional network device has the following architecture.
+
+the [Traditional Network](https://github.com/Ankesha-source/SDN_NFV/upload/master)
+
+The above image depicts layers within traditional networking device. It consists of control plane, management plane and data plane. This are referred as static kind of networks.
+Traditional networking is rooted in fixed-function network devices, such as a switch or router. These devices each have certain functions that operate well together and support the network. If the network’s functions are implemented as hardware constructs, then its speed is usually bolstered.
+The key characteristic for traditional networks is that each device has a local control plane and a local data plane. Each device also has its own management planes, for example connecting to the device through Telnet, a simple, early network protocol that allows users on one computer to log into another computer that is on the same network.
+
+# The Problem
+
+The advent of new technologies, such as mobile devices, server and content virtualization, and cloud services, are among the key forces driving the networking industry today. 
+Every enterprise has to weigh the pros and cons of the different network types. With increased consumer demands for performance and flexibility, some cons quickly become heavier than others. But, the Physical infrastructure, especially hardware that requires manual configurations, simply hasn’t been able to keep pace with modern technology. The increasing demands of the modern enterprise users are too much for most traditional networks. Users looking to upscale their network infrastructures with as little disruption as possible quickly turn to SDN.
+
+# What is SDN?
+
+The networking industry is gradually transforming itself from a hardware-centric approach to a software-defined platform. Although the concept of software-defined networking (SDN) is still considered new and acceptance of it is at a very nascent stage, the life cycle and evolution of the personal computer indicate the benefits of such an architectural model. The below image displays the SDN architectural diagram. 
+
+
+The above image depicts layers within software defined networks. It consists of one layer of data plane along with open flow API. This is interfaced with controller housing both the control and management plane. Above which on both there exists application layer.
+SDN helps users virtualize their hardware and works to create a computer network by breaking down the network into the following separate planes:
+
+* The control plane offers the performance and fault management of NetFlow and, like protocols, is frequently used for managing device configurations that are remotely connected to a software-defined network.
+
+* The data plane forwards traffic to its desired destination. Before traffic reaches the data plane, the control plane dictates what path flows it will take by using the flow protocol— when a network administrator works with the software-defined network and manages the network.
+
+
+## Benefits of using SDN Architecture
+Software-Defined Networking is an emerging architecture that is dynamic, manageable, cost-effective, and adaptable, making it ideal for the high-bandwidth, dynamic nature of today’s applications. This architecture decouples the network control and forwarding functions Software-Defined Networking (SDN) Definition - Open Networking Foundation. 
+
+* *Centralized Network Provisioning*: SDN helps centralize enterprise management and provisioning by offering a unified perspective on the whole network. SDN can also speed up service delivery and boost agility in provisioning virtual and physical network devices in a central location.
+* *Holistic Enterprise Management*: Networks must meet the rising demand for processing requests. SDN helps your IT department adjust your network configuration with no impact on your network. Also, unlike Simple Network Management Protocol (SNMP), SND bolsters the management of physical and virtual switches and network devices that are from a central controller.
+* *Granular Security*: Virtual machines pose a challenge for firewalls and content filtering, a challenge that’s further compounded by personal devices. By establishing a central control point for regulating security and policy information for your enterprise, the SDN controller quickly becomes a boon for your IT department. 
+* *Lower Operating Costs*: Several benefits to SDN, such as having an efficient administration, server utilization improvements, and improved virtualization control, can dually help cut operating costs. Because many regular network administration issues can be automated and centralized, SDN can also help reduce operating costs and grow administrative savings. 
