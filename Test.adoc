@@ -1,14 +1,15 @@
-One of the salient characteristics of the digital revolution is the acceleration of change. Technologies that enabled the digital revolution over past decades experience ever-faster innovation cycles-for example, recall how rapidly mobile phone technology has advanced. And while it is a challenge to stay current with such accelerated changes, the advancements consistently deliver both operational and economic benefits. 
-The dynamic and interactive characteristics of the new technologies demand more elasticity than today’s legacy backbone networks can deliver, as well as more flexible, agile and cost-effective low-latency and high-bandwidth connections to handle the digital deluge. This is why the industry has turned to software.
+One of the salient characteristics of the digital revolution is the acceleration of change. Technologies that enabled the digital revolution such as mobile phone technology has further advanced. And while it is a challenge to stay current with such accelerated changes, the advancements consistently deliver both operational and economic benefits. 
+The dynamic and interactive characteristics of the new technologies demand more elasticity. Traditional networks cannnot deliver such elasticity, flexiblity, and agility with high-bandwidth connections. This is why the industry has turned to software.
 
 image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/Network.png[]
 
 # About SDN-NFV
 
 Two technology trends that are transforming network management, particularly those that are widely-distributed and employ public, private or hybrid cloud services, are software-defined networks (SDN) and network functions virtualization (NFV). Together, SDN and NFV technologies are making it easier to provision network resources, reducing CapEx and OpEx and enabling greater network flexibility.
+
 This documents explains details about SDN and traditional network. The difference between the two networks also it explains business benefits of SDN and NFV, Further, the future challenges related to SDN and NFV are also described.
 
-# Overview of Traditional Network?
+# Overview of Traditional Networks
 Your ABC Company currently uses the traditional network. The traditional network device has the following architecture.
 
 image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/Traditional%20Network.png[]
