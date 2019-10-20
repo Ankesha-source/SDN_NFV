@@ -1,17 +1,17 @@
 One of the salient characteristics of the digital revolution is the acceleration of change. Technologies that enabled the digital revolution over past decades experience ever-faster innovation cycles-for example, recall how rapidly mobile phone technology has advanced. And while it’s a challenge to stay current with such accelerated changes, the advancements consistently deliver both operational and economic benefits. 
 The dynamic and interactive characteristics of the new technologies demand more elasticity than today’s legacy backbone networks can deliver, as well as more flexible, agile and cost-effective low-latency and high-bandwidth connections to handle the digital deluge. This is why the industry has turned to software.
 
-image:: Network.png[]
+image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/Network.png[]
 
 # About SDN-NFV
 
 Two technology trends that are transforming network management, particularly those that are widely-distributed and employ public, private or hybrid cloud services, are software-defined networks (SDN) and network functions virtualization (NFV). Together, SDN and NFV technologies are making it easier to provision network resources, reducing CapEx and OpEx and enabling greater network flexibility.
 This documents explains details about SDN and traditional network. The difference between the two networks also it explains business benefits of SDN and NFV, Further, the future challenges related to SDN and NFV are also described.
 
-# What is Traditional Network?
+# Overview of Traditional Network?
 Your ABC Company currently uses the traditional network. The traditional network device has the following architecture.
 
-image:Traditional Network.png[]
+image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/Traditional%20Network.png[]
 
 The above image depicts layers within traditional networking device. It consists of control plane, management plane and data plane. This are referred as static kind of networks.
 Traditional networking is rooted in fixed-function network devices, such as a switch or router. These devices each have certain functions that operate well together and support the network. If the network’s functions are implemented as hardware constructs, then its speed is usually bolstered.
@@ -26,6 +26,7 @@ Every enterprise has to weigh the pros and cons of the different network types. 
 
 The networking industry is gradually transforming itself from a hardware-centric approach to a software-defined platform. Although the concept of software-defined networking (SDN) is still considered new and acceptance of it is at a very nascent stage, the life cycle and evolution of the personal computer indicate the benefits of such an architectural model. The below image displays the SDN architectural diagram. 
 
+image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/SDN.png[]
 
 The above image depicts layers within software defined networks. It consists of one layer of data plane along with open flow API. This is interfaced with controller housing both the control and management plane. Above which on both there exists application layer.
 SDN helps users virtualize their hardware and works to create a computer network by breaking down the network into the following separate planes:
@@ -46,7 +47,7 @@ Software-Defined Networking is an emerging architecture that is dynamic, managea
 * *Cloud Abstraction*: Using SDN to abstract cloud resources helps simplify the process of unifying cloud resources. SDN controllers can manage all the networking components that comprise the massive data center platforms.
 * *Consistent and Time Efficient*:One big benefit of SDN is the ability to manipulate data traffic. It is easier to have quality of service for Voice over Internet Protocol (VoIP) and multimedia transmissions if you can direct and automate data traffic. SDN also helps with steaming higher-quality videos since SDN bolsters network responsiveness and, therefore, creates an improved user experience (UX).
 
-# Differences between SDN and traditional networking?
+# Differences between SDN and Traditional Networking
 
 Traditional networks is hardware based, it uses switches, routers and other physical infrastructure to create connections and run the network. In contrast, SDN is more flexible, allows users greater control and ease for managing resources virtually throughout the control plane.
 SDN controllers feature a northbound interface that communicates with APIs. Because of this communication, application developers can directly program the network, as opposed to using the protocols required by traditional networking.
