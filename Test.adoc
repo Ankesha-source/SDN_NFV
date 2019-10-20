@@ -104,4 +104,4 @@ As the cloud era takes shape, technology continues to play an increasing role in
 
 That is the real value of SDN. It is platform that removes many of the critical limitations of the traditional networking model: one that is set to create entirely new networking possibilities.
 
-image:: https://github.com/Ankesha-source/SDN_NFV/blob/master/images/XaaS.png[]
+image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/XaaS.png[]
