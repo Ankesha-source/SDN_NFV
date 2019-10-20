@@ -1,7 +1,7 @@
 One of the salient characteristics of the digital revolution is the acceleration of change. Technologies that enabled the digital revolution over past decades experience ever-faster innovation cycles-for example, recall how rapidly mobile phone technology has advanced. And while it’s a challenge to stay current with such accelerated changes, the advancements consistently deliver both operational and economic benefits. 
 The dynamic and interactive characteristics of the new technologies demand more elasticity than today’s legacy backbone networks can deliver, as well as more flexible, agile and cost-effective low-latency and high-bandwidth connections to handle the digital deluge. This is why the industry has turned to software.
 
-image:Network.adoc[]
+image:: Network.png[]
 
 # About SDN-NFV
 
@@ -11,7 +11,7 @@ This documents explains details about SDN and traditional network. The differenc
 # What is Traditional Network?
 Your ABC Company currently uses the traditional network. The traditional network device has the following architecture.
 
-the [Traditional Network](https://github.com/Ankesha-source/SDN_NFV/upload/master)
+image:Traditional Network.png[]
 
 The above image depicts layers within traditional networking device. It consists of control plane, management plane and data plane. This are referred as static kind of networks.
 Traditional networking is rooted in fixed-function network devices, such as a switch or router. These devices each have certain functions that operate well together and support the network. If the network’s functions are implemented as hardware constructs, then its speed is usually bolstered.
@@ -42,3 +42,58 @@ Software-Defined Networking is an emerging architecture that is dynamic, managea
 * *Holistic Enterprise Management*: Networks must meet the rising demand for processing requests. SDN helps your IT department adjust your network configuration with no impact on your network. Also, unlike Simple Network Management Protocol (SNMP), SND bolsters the management of physical and virtual switches and network devices that are from a central controller.
 * *Granular Security*: Virtual machines pose a challenge for firewalls and content filtering, a challenge that’s further compounded by personal devices. By establishing a central control point for regulating security and policy information for your enterprise, the SDN controller quickly becomes a boon for your IT department. 
 * *Lower Operating Costs*: Several benefits to SDN, such as having an efficient administration, server utilization improvements, and improved virtualization control, can dually help cut operating costs. Because many regular network administration issues can be automated and centralized, SDN can also help reduce operating costs and grow administrative savings. 
+* *Hardware Savings and Reduced Capital Expenditures*: SDN adoption helps revive older network devices and simplifies the process of optimizing commoditized hardware. By following the instructions from the SDN controller, older hardware can be repurposed while less costly hardware can be deployed to optimal effect. This process allows new devices to become veritable “white box” switches that have intelligence focused at the SDN controller.
+* *Cloud Abstraction*: Using SDN to abstract cloud resources helps simplify the process of unifying cloud resources. SDN controllers can manage all the networking components that comprise the massive data center platforms.
+* *Consistent and Time Efficient*:One big benefit of SDN is the ability to manipulate data traffic. It is easier to have quality of service for Voice over Internet Protocol (VoIP) and multimedia transmissions if you can direct and automate data traffic. SDN also helps with steaming higher-quality videos since SDN bolsters network responsiveness and, therefore, creates an improved user experience (UX).
+
+# Differences between SDN and traditional networking?
+
+Traditional networks is hardware based, it uses switches, routers and other physical infrastructure to create connections and run the network. In contrast, SDN is more flexible, allows users greater control and ease for managing resources virtually throughout the control plane.
+SDN controllers feature a northbound interface that communicates with APIs. Because of this communication, application developers can directly program the network, as opposed to using the protocols required by traditional networking.
+SDN lets users use software to provision new devices instead of using physical infrastructure, so IT administrators can direct network paths and proactively arrange network services. Unlike traditional switches, SDN also has the ability to better communicate with devices using the network.
+
+Virtualization is the primary difference between SDN and traditional networking. When SDN virtualizes the entire network, it generates an abstract copy of your physical network, and lets you provision resources from a centralized location. Opposingly, with a traditional network the physical location of the control plane hinders an IT administrator’s ability to control the traffic flow.
+
+With SDN, the control plane becomes software-based, allowing it to be accessed through a connected device. This access lets IT administrators manage traffic flow with greater detail from a centralized user interface (UI). This centralized location grants users greater control over how their networks work and how their networks are configured. The ability to quickly process different network configurations from a centralized UI is especially beneficial for network segmentation.
+
+SDN became a popular alternative to traditional networking because it lets IT administrators provision resources and bandwidths as needed without requiring an investment of additional physical infrastructure. Traditional networking requires new hardware to increase its network capacity. 
+
+Traditional networks use Single vendor approach while Virtualized network uses multi-vendor approach. Single Vendor approach is cost effective initially as it avoids complicated troubleshooting and cross layer fault detection. But, for complex new age network requirements, single vendor approach is not sufficient. 
+
+# Business Benefits of SDN NFV 
+
+Over the years, service provider networks have become complex, rigid, and inflexible in terms of service creation and delivery. This leads to limited innovation and it also results in increasing capital and operational expenses. The tight integration software and hardware has made it increasingly difficult to manipulate services “on-demand.” 
+The business purpose for this transformation is to create a more dynamic and service-agile infrastructure where existing services can be changed dynamically and new services can be delivered rapidly in response to the changing customer needs. 
+Furthermore, the total cost of ownership is reduced through improved automation and orchestration capabilities.
+
+# The Disadvantages of SDN
+
+## Latency
+One of the problems with virtualizing any infrastructure is the latency that arises as a result. The speed of your interaction with an appliance is dependent on how many virtualized resources you have available. Your service is at the discretion of how your hypervisor divides up your usage (which can add latency). Every active device on a network takes its toll on your network availability. This is going to be exacerbated in the future as more Internet of Things (IoT) devices hit the market and start to be incorporated into the mix.
+
+## Limited Management
+Even though you can manage the services of devices throughout your network, you can’t manage the devices themselves. While on first glance this might appear to be a trivial detail, it is very important with regards to upscaling a network. All of these devices need to be monitored, patched and upgraded frequently in order to stay in working operation. As a result, it is important to bear in mind that there remains a wealth of maintenance requirements not addressed by SDN.
+
+## Complex Network Management
+Though traditional networks may have their limitations, there is a standardized consensus on security threats and procedures. At this point in time, no such consensus exists for SDN. Though there are many SDN solution providers, SDN security concerns are uncharted territory for many administrators. As such, it can be very difficult to maintain the integrity of an SDN service against external threats when you don’t have the requisite knowledge to defend the system The ability to prevent attacks from taking root is dependent upon spotting threats before they occur. To do this you need a level of expertise with SDN that is hard to achieve without significant experience of using an SDN system. While those without experience can learn about using an SDN, they need to undergo a substantial learning curve in order to manage the nuances of security threats.
+
+## Deployment Best Practices
+While SDN does offer many advantages, its deployment is hardly carefree. In order to make sure that an SDN operates effectively there are a number of steps that need to be taken when deploying this solution. SDN deployment can be more complex than other network resources so it’s important to understand some of the factors you need to take into account.
+
+## De-Provisioning
+One of the biggest benefits provided by an SDN is the ability to deploy new resources quickly. However, this capability needs to be closely managed in order to maintain performance. In practice, this means regularly de-provisioning resources when they arenot needed. Leaving resources active when not in use takes up virtual resources that would be better used elsewhere.
+
+## Network Monitoring
+Every professional administrator recognizes the importance of network monitoring but what is surprising is that there are comparatively few SDN-compatible products. This is problematic given that you need to monitor an SDN to make sure that it’s secure and performing satisfactorily. In order to monitor an SDN, you need APIs so that an SDN can be integrated with them. We’ve covered this subject in more detail below as this is a complex topic.
+
+## Security
+When onboarding any new piece of technology, you need to take into account new security risks. An SDN is no exception. From the moment you deploy an SDN, you give your network new vulnerabilities that can be targeted by malicious entities. As a result, you need to have a solid awareness of current security threats and how to address them. This includes a thorough understanding of protocol limitations and switch impersonation in particular. It also means that you have to implement new best practices to keep your service protected from external threats.
+
+## Maintaining Quality of Service
+Quality of Service (QoS) monitoring is a nightmare within any network but particular caution needs to be taken on an SDN network. As we discussed earlier, with an SDN you have control over services but not physical devices. As a result, you need to be particularly cautious about how you provision your resources. In addition, you also need to bear in mind the default Quality of Service settings on each of your network devices as they can have a large effect on the quality of your network performance.
+
+# Making the Transition
+
+The transition to SDN  will need a substantial amount of money on new equipment. While this will deliver long-term savings in terms of physical hardware and scalability, it is certainly worth bearing in mind before making a purchase. It is a good idea to operate on a hybrid network before you consider scrapping all of your traditional infrastructure. Selectively adding SDN equipment to your setup will allow you to keep your familiar traditional network infrastructure within reach while minimizing the disruption to your service.
+
+
