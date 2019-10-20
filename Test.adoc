@@ -85,7 +85,7 @@ While SDN does offer many advantages, its deployment is hardly carefree. In orde
 One of the biggest benefits provided by an SDN is the ability to deploy new resources quickly. However, this capability needs to be closely managed in order to maintain performance. In practice, this means regularly de-provisioning resources when they arenot needed. Leaving resources active when not in use takes up virtual resources that would be better used elsewhere.
 
 ## Network Monitoring
-Every professional administrator recognizes the importance of network monitoring but what is surprising is that there are comparatively few SDN-compatible products. This is problematic given that you need to monitor an SDN to make sure that it’s secure and performing satisfactorily. In order to monitor an SDN, you need APIs so that an SDN can be integrated with them. 
+Every professional administrator recognizes the importance of network monitoring but what is surprising is that there are comparatively few SDN-compatible products. This is problematic given that you need to monitor an SDN to make sure that it is secure and performing satisfactorily. In order to monitor an SDN, you need APIs so that an SDN can be integrated with them. 
 
 ## Security
 When onboarding any new piece of technology, you need to take into account new security risks. An SDN is no exception. From the moment you deploy an SDN, you give your network new vulnerabilities that can be targeted by malicious entities. As a result, you need to have a solid awareness of current security threats and how to address them. This includes a thorough understanding of protocol limitations and switch impersonation in particular. It also means that you have to implement new best practices to keep your service protected from external threats.
@@ -97,4 +97,10 @@ Quality of Service (QoS) monitoring is a nightmare within any network but partic
 
 The transition to SDN  will need a substantial amount of money on new equipment. While this will deliver long-term savings in terms of physical hardware and scalability, it is certainly worth bearing in mind before making a purchase. It is a good idea to operate on a hybrid network before you consider scrapping all of your traditional infrastructure. Selectively adding SDN equipment to your setup will allow you to keep your familiar traditional network infrastructure within reach while minimizing the disruption to your service.
 
+# The Future
 
+As the cloud era takes shape, technology continues to play an increasing role in all aspects of business, and its role is shifting from operational support to becoming core to product & service delivery and customer interaction. Data Centers in private or secure third party clouds are becoming the manufacturing floor of the information era. SDN allows IT to take a more proactive role in delivering cloud services and applications, which in turn will drive next-generation user experiences.
+
+That is the real value of SDN. It is platform that removes many of the critical limitations of the traditional networking model: one that is set to create entirely new networking possibilities.
+
+image:: https://github.com/Ankesha-source/SDN_NFV/blob/master/images/XaaS.png[]
