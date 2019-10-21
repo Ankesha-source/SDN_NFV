@@ -72,7 +72,7 @@ The business purpose for this transformation is to create a more dynamic and ser
 Furthermore, the total cost of ownership is reduced through improved automation and orchestration capabilities.
 
 # The Disadvantages of SDN
-Although, SDN is the necessity of the today’s time, it is important to note that it below are some of the disadvantages of SDN-NFV.
+Although, SDN is the necessity of the today’s time, it is important to note that there are some of the disadvantages of SDN-NFV.
 
 ## Latency
 One of the problems with virtualizing any infrastructure is the latency that arises as a result. The speed of your interaction with an appliance is dependent on how many virtualized resources you have available. Your service is at the discretion of how your hypervisor divides up your usage (which can add latency). Every active device on a network takes its toll on your network availability. This is going to be exacerbated in the future as more Internet of Things (IoT) devices hit the market and start to be incorporated into the mix.
