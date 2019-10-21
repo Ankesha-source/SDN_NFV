@@ -29,7 +29,7 @@ The networking industry is gradually transforming itself from a hardware-centric
 
 image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/SDN.png[]
 
-The above image depicts layers within software defined networks. It consists of one layer of data plane along with open flow API. This is interfaced with controller housing both the control and management plane. Above which on both there exists application layer.
+The above image depicts layers within software defined networks. It consists of one layer of data plane along with open flow API. This is interfaced with controller housing both the control and management plane. Above which there exists application layer.
 SDN helps users virtualize their hardware and works to create a computer network by breaking down the network into the following separate planes:
 
 * The control plane offers the performance and fault management of NetFlow and, like protocols, is frequently used for managing device configurations that are remotely connected to a software-defined network.
@@ -37,7 +37,7 @@ SDN helps users virtualize their hardware and works to create a computer network
 * The data plane forwards traffic to its desired destination. Before traffic reaches the data plane, the control plane dictates what path flows it will take by using the flow protocol— when a network administrator works with the software-defined network and manages the network.
 
 
-## Benefits of using SDN Architecture
+## Benefits of Using SDN Architecture
 Software-Defined Networking is an emerging architecture that is dynamic, manageable, cost-effective, and adaptable, making it ideal for the high-bandwidth, dynamic nature of today’s applications. This architecture decouples the network control and forwarding functions Software-Defined Networking (SDN) Definition - Open Networking Foundation. 
 
 * *Centralized Network Provisioning*: SDN helps centralize enterprise management and provisioning by offering a unified perspective on the whole network. SDN can also speed up service delivery and boost agility in provisioning virtual and physical network devices in a central location.
@@ -46,11 +46,14 @@ Software-Defined Networking is an emerging architecture that is dynamic, managea
 * *Lower Operating Costs*: Several benefits to SDN, such as having an efficient administration, server utilization improvements, and improved virtualization control, can dually help cut operating costs. Because many regular network administration issues can be automated and centralized, SDN can also help reduce operating costs and grow administrative savings. 
 * *Hardware Savings and Reduced Capital Expenditures*: SDN adoption helps revive older network devices and simplifies the process of optimizing commoditized hardware. By following the instructions from the SDN controller, older hardware can be repurposed while less costly hardware can be deployed to optimal effect. This process allows new devices to become veritable “white box” switches that have intelligence focused at the SDN controller.
 * *Cloud Abstraction*: Using SDN to abstract cloud resources helps simplify the process of unifying cloud resources. SDN controllers can manage all the networking components that comprise the massive data center platforms.
-* *Consistent and Time Efficient*:One big benefit of SDN is the ability to manipulate data traffic. It is easier to have quality of service for Voice over Internet Protocol (VoIP) and multimedia transmissions if you can direct and automate data traffic. SDN also helps with steaming higher-quality videos since SDN bolsters network responsiveness and, therefore, creates an improved user experience (UX).
+* *Consistent and Time Efficient*: One big benefit of SDN is the ability to manipulate data traffic. It is easier to have quality of service for Voice over Internet Protocol (VoIP) and multimedia transmissions if you can direct and automate data traffic. SDN also helps with steaming higher-quality videos since SDN bolsters network responsiveness and, therefore, creates an improved user experience (UX).
 
 # Differences between SDN and Traditional Networking
 
 Traditional networks is hardware based, it uses switches, routers and other physical infrastructure to create connections and run the network. In contrast, SDN is more flexible, allows users greater control and ease for managing resources virtually throughout the control plane.
+
+image::https://github.com/Ankesha-source/SDN_NFV/blob/master/images/TradvsSDN.png[]
+
 SDN controllers feature a northbound interface that communicates with APIs. Because of this communication, application developers can directly program the network, as opposed to using the protocols required by traditional networking.
 SDN lets users use software to provision new devices instead of using physical infrastructure, so IT administrators can direct network paths and proactively arrange network services. Unlike traditional switches, SDN also has the ability to better communicate with devices using the network.
 
@@ -60,7 +63,7 @@ With SDN, the control plane becomes software-based, allowing it to be accessed t
 
 SDN became a popular alternative to traditional networking because it lets IT administrators provision resources and bandwidths as needed without requiring an investment of additional physical infrastructure. Traditional networking requires new hardware to increase its network capacity. 
 
-Traditional networks use Single vendor approach while Virtualized network uses multi-vendor approach. Single Vendor approach is cost effective initially as it avoids complicated troubleshooting and cross layer fault detection. But, for complex new age network requirements, single vendor approach is not sufficient. 
+Traditional networks use single vendor approach while Virtualized network uses multi-vendor approach. Single Vendor approach is cost effective initially as it avoids complicated troubleshooting and cross layer fault detection. But, for complex new age network requirements, single vendor approach is not sufficient. 
 
 # Business Benefits of SDN NFV 
 
@@ -69,6 +72,7 @@ The business purpose for this transformation is to create a more dynamic and ser
 Furthermore, the total cost of ownership is reduced through improved automation and orchestration capabilities.
 
 # The Disadvantages of SDN
+Although, SDN is the necessity of the today’s time, it is important to note that it below are some of the disadvantages of SDN-NFV.
 
 ## Latency
 One of the problems with virtualizing any infrastructure is the latency that arises as a result. The speed of your interaction with an appliance is dependent on how many virtualized resources you have available. Your service is at the discretion of how your hypervisor divides up your usage (which can add latency). Every active device on a network takes its toll on your network availability. This is going to be exacerbated in the future as more Internet of Things (IoT) devices hit the market and start to be incorporated into the mix.
@@ -83,7 +87,7 @@ Though traditional networks may have their limitations, there is a standardized 
 While SDN does offer many advantages, its deployment is hardly carefree. In order to make sure that an SDN operates effectively there are a number of steps that need to be taken when deploying this solution. SDN deployment can be more complex than other network resources so it is important to understand some of the factors you need to take into account.
 
 ## De-Provisioning
-One of the biggest benefits provided by an SDN is the ability to deploy new resources quickly. However, this capability needs to be closely managed in order to maintain performance. In practice, this means regularly de-provisioning resources when they arenot needed. Leaving resources active when not in use takes up virtual resources that would be better used elsewhere.
+One of the biggest benefits provided by an SDN is the ability to deploy new resources quickly. However, this capability needs to be closely managed in order to maintain performance. In practice, this means regularly de-provisioning resources when they are not needed. Leaving resources active when not in use takes up virtual resources that would be better used elsewhere.
 
 ## Network Monitoring
 Every professional administrator recognizes the importance of network monitoring but what is surprising is that there are comparatively few SDN-compatible products. This is problematic given that you need to monitor an SDN to make sure that it is secure and performing satisfactorily. In order to monitor an SDN, you need APIs so that an SDN can be integrated with them. 
